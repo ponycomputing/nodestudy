@@ -15,3 +15,5 @@ for(var i = 0 ; i <= 100 ; i++){
 	sum += i;
 }
 console.log(sum);
+
+//result 5050 before reading file
