@@ -45,5 +45,5 @@ var server = http.createServer(function onRequest (req, res) {
 });
 
 // Listen
-server.listen(3080,"127.0.0.1");
-console.log("server starts at port 3080");
+server.listen(3000,"127.0.0.1");
+console.log("server starts at port 3000");
