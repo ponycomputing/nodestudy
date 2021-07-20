@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>I bought <%= stuffs %>，spent <%= monies %> dollars。</h1>
+	
+	<select name="" id="">
+		<% 
+			for(var i = 1949 ; i <= 2017 ; i++){ 
+		%>
+			<option value="<%= i %>"><%= i %></option>
+		<%
+			}
+		%>
+	</select>
+
+	<h4>My idols：</h4>
+	<% 
+		for(var i = 0 ; i < idols.length ; i++){
+	%>
+		<p><b><%= idols[i].fullname %></b> <%= idols[i].ages %> old</p>
+	<%
+		}
+	%>
+</body>
+</html>
